@@ -32,6 +32,12 @@ body {
 .sun {
     background-color: gold;
     animation: sun 15s linear infinite;
+    background-image: url('image/logo.png');
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 68px;
+    background-position-x: -50px;
 }
 
 .moon {
@@ -56,6 +62,5 @@ body {
     to {
         transform: translateX(110%);
         background-color: lightgray;
-        
     }
 }
