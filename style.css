@@ -64,3 +64,11 @@ body {
         background-color: lightgray;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .sun {
+        background-size: 250px;
+        background-position-y: 15px;
+        background-position-x: -40px;
+    }
+}
